@@ -1,0 +1,260 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/* Footer bigen */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', 'Arial', sans-serif;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 21px;
+    padding-bottom: 19px;
+    background-color: #fff;
+}
+.site-header-logo {
+    margin-right: auto;
+}
+.site-header-link-img {
+    width: 111px;
+    height: 18px;
+}
+.header-nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+.site-header-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.site-header-list-item {
+    list-style-type: none;
+    margin-right: 25px;
+}
+.site-header-list-link:hover{
+    color: #000;
+}
+.site-header-list-link {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #837D88;
+}
+.site-header-button {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 13px 28px 13px 28px;
+    text-decoration: none;
+    border: 1.5px solid #2C2830;
+    background-color: #fff;
+}
+.site-header-button:hover {
+    background-color: #2C2830;
+    color: #fff;
+}
+/* Footer end */
+
+/* Humanizing section bigen */
+.line{
+    display: inline-block;
+    width: 150px;
+    height: 1px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+.humanizing-your-insurances{
+    background-color: ;
+    background-color: #2D2641;
+}
+.humanizing-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.humanizing {
+    width: 540px;
+}
+.humanizing-section-head {
+    width: 520px;
+    font-family: 'DM Serif Display', 'arial', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.humanizing-section-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.humanizing-section-link {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 13px 28px 13px 28px;
+    text-decoration: none;
+    border: 1.5px solid #fff;
+    background-color: #2C2830;
+    color: #fff;
+}
+.humanizing-section-link:hover{
+    background-color: #fff;
+    color: #2C2830;
+}
+.humanizing-section-img {
+    width: 540px;
+    height: 650px;
+}
+
+.different-wrapper{
+    padding-top: 359px;
+    padding-bottom: 158px;
+    width: 1110px;
+}
+.different-head {
+    font-family: 'DM Serif Display', 'arial', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #000;
+    margin-bottom: 100px;
+}
+.different-list {
+    display: flex;
+    justify-content: space-around;
+}
+.different-item {
+    width: 350px;
+}
+.different-item-img {
+    width: 86px;
+    height: 86px;
+}
+.different-list-item-head {
+    font-family: 'DM Serif Display', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2C2830;
+}
+.different-list-item-text {
+    width: 350px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #837D88;
+}
+
+.find-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: #2D2641;
+    margin-bottom: 150px;
+    padding: 70px 80px 70px 80px;
+}
+.find-out {
+    width: 475px;
+    margin-right: auto;
+}
+.find-out-head{
+    margin: 0;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.777778px;
+    color: #FFFFFF;
+}
+.how-we-work {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #FAFAFA;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DADADA;
+    padding-bottom: 36px;
+    padding-top: 67px;
+}
+.site-footer-link-img {
+    width: 111px;
+    height: 18px;
+}
+.footer-top-list {
+    display: flex;
+}
+.footer-top-item{
+    margin-left: 16px;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-bottom-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #837D88;
+}
+
+.footer-bottom-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #2D2641;
+    text-decoration: none;
+}
+.footer-bottom-list{
+    padding: 0;
+}
+.footer-bottom-link:hover{
+    color: #000;
+}
