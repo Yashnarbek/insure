@@ -75,6 +75,8 @@ body{
 /* Footer end */
 
 /* Humanizing section bigen */
+
+
 .line{
     display: inline-block;
     width: 150px;
@@ -83,14 +85,22 @@ body{
     background-color: #fff;
 }
 .humanizing-your-insurances{
-    background-color: ;
     background-color: #2D2641;
+    background-image: url("../img/line.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 450px) calc(50% - 100px);
+}
+.section-wrapper{
+    background-image: url("../img/line-left.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 600px) calc(0% + 500px);
 }
 .humanizing-wrapper{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .humanizing {
     width: 540px;
 }
@@ -133,6 +143,7 @@ body{
     height: 650px;
 }
 
+
 .different-wrapper{
     padding-top: 359px;
     padding-bottom: 158px;
@@ -154,9 +165,32 @@ body{
 .different-item {
     width: 350px;
 }
-.different-item-img {
+.different-item:first-child::before{
+    display: block;
+    content: "";
     width: 86px;
     height: 86px;
+    background-image: url("../img/spark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.different-item:nth-child(2)::before{
+    display: block;
+    content: "";
+    width: 86px;
+    height: 86px;
+    background-image: url("../img/usa.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.different-item:last-child::before{
+    display: block;
+    content: "";
+    width: 86px;
+    height: 86px;
+    background-image: url("../img/avatar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .different-list-item-head {
     font-family: 'DM Serif Display', 'Arial', sans-serif;
@@ -180,6 +214,9 @@ body{
     display: flex;
     align-items: center;
     background-color: #2D2641;
+    background-image: url("../img/line.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 350px) calc(50% + 30px);
     margin-bottom: 150px;
     padding: 70px 80px 70px 80px;
 }
@@ -197,6 +234,7 @@ body{
     color: #FFFFFF;
 }
 .how-we-work {
+    background-color: transparent;
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
