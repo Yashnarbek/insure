@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
     list-style-type: none;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* Footer bigen */
@@ -21,12 +29,17 @@ body{
     white-space: nowrap;
     overflow: hidden;
     clip: rect(0 0 0 0);
-    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
   }
 
 .header-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 21px;
     padding-bottom: 19px;
     background-color: #fff;
@@ -39,10 +52,16 @@ body{
     height: 18px;
 }
 .header-nav-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .site-header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0;
     padding: 0;
@@ -107,9 +126,14 @@ body{
     background-position: calc(50% - 600px) calc(0% + 500px);
 }
 .humanizing-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 
 .humanizing {
@@ -170,8 +194,11 @@ body{
     margin-bottom: 100px;
 }
 .different-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .different-item {
     width: 350px;
@@ -222,8 +249,12 @@ body{
 }
 
 .find-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #2D2641;
     background-image: url("../img/line.svg");
     background-repeat: no-repeat;
@@ -260,9 +291,15 @@ footer{
     background-color: #FAFAFA;
 }
 .footer-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-bottom: 1px solid #DADADA;
     padding-bottom: 36px;
     padding-top: 67px;
@@ -272,14 +309,20 @@ footer{
     height: 18px;
 }
 .footer-top-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .footer-top-item{
     margin-left: 16px;
 }
 .footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
 }
